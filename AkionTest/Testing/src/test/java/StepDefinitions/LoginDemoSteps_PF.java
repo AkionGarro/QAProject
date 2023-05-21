@@ -9,6 +9,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,6 +23,10 @@ public class LoginDemoSteps_PF {
     public void browser_is_opened() {
         System.out.println("Step: browser is opened");
         System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        //driver = new ChromeDriver(options);
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -39,7 +44,6 @@ public class LoginDemoSteps_PF {
 
         this.loginPF = new LoginPF(driver);
         loginPF.validateLogin(username, password);
-        Thread.sleep(2000);
         System.out.println("Step: user enters a text in search box");
 
     }
@@ -53,7 +57,6 @@ public class LoginDemoSteps_PF {
 
     @Then("user is redirect to home page")
     public void user_is_redirect_to_home_page() throws InterruptedException {
-        Thread.sleep(2000);
         this.homePF = new HomePF(driver);
         this.homePF.logoutButtonIsDesplayed();
 

@@ -10,3 +10,12 @@ Feature: Test login functionality
       | Akion    | 12345    |
       | Garro    | 12345     |
       | Carlos   | 12345   |
+      | Akion    | 12345    |
+      | Garro    | 12345     |
+      | Carlos   | 12345   |
+      | Akion    | 12345    |
+      | Garro    | 12345     |
+      | Carlos   | 12345   |
+      | Akion    | 12345    |
+      | Garro    | 12345     |
+      | Carlos   | 12345   |
