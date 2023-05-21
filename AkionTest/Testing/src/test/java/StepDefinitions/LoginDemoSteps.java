@@ -26,14 +26,14 @@ public class LoginDemoSteps {
         driver.navigate().to("https://example.testproject.io/web/");
         System.out.println("Step: user go to login page now");
     }
-    @When("user put username and password")
-    public void user_put_username_and_password() throws InterruptedException {
+    @When("^user put (.*) and (.*)$")
+    public void user_put_username_and_password(String username,Integer password) throws InterruptedException {
 
         String nameXpath = "/html/body/div[2]/div[1]/form/div[1]/div/input";
         String passwordXpath = "/html/body/div[2]/div[1]/form/div[2]/div/input";
 
-        driver.findElement(By.xpath(nameXpath)).sendKeys("Carlos Akion Garro Campos");
-        driver.findElement(By.xpath(passwordXpath)).sendKeys("12345");
+        driver.findElement(By.xpath(nameXpath)).sendKeys(username);
+        driver.findElement(By.xpath(passwordXpath)).sendKeys((password).toString());
         Thread.sleep(2000);
         System.out.println("Step: user enters a text in search box");
 
@@ -50,7 +50,6 @@ public class LoginDemoSteps {
         Thread.sleep(2000);
         String logoutButtonXpath = "/html/body/div[2]/div[2]/form/div[6]/button[2]";
         driver.findElement(By.xpath(logoutButtonXpath)).isDisplayed();
-
         driver.close();
         driver.quit();
 
