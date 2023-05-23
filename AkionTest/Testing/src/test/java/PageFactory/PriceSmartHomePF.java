@@ -24,6 +24,8 @@ public class PriceSmartHomePF {
 
     WebDriver driver;
 
+    PriceSmartCountryPF countries;
+
     public PriceSmartHomePF(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -47,6 +49,27 @@ public class PriceSmartHomePF {
 
     public void clickSpanishPicker() {
         this.englishPicker.click();
+    }
+
+    public void languagePicker(String lang){
+        lang = lang.toLowerCase();
+
+        switch (lang){
+            case ("ingles"):
+                clickLanguagePicker();
+                clickEnglishPicker();
+                break;
+            case("español"):
+                clickLanguagePicker();
+                clickSpanishPicker();
+                break;
+        }
+    }
+
+    public void countryPicker(String country){
+        this.countries = new PriceSmartCountryPF(driver);
+
+
     }
 
 

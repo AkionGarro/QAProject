@@ -3,9 +3,8 @@ Feature: Test shopping cart works correctly
     Given browser is running
     And user go to priceSmart home page
     When user put <Country> and <Club> and <Language>
-    And user select club
-    Then user is redirect another club
-    And user shopping cart is empty
+    Then user is redirect to country in a specific club
+    And user's shopping cart is empty
     Examples:
       | Language | Country    | Club      |
       | Ingles   | Costa Rica | Escazú    |

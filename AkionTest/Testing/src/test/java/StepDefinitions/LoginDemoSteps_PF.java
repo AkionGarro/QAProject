@@ -18,7 +18,7 @@ public class LoginDemoSteps_PF {
     WebDriver driver = null;
     LoginPF loginPF;
     HomePF homePF;
-
+/*
     @Given("browser is opened")
     public void browser_is_opened() {
         System.out.println("Step: browser is opened");
@@ -66,5 +66,5 @@ public class LoginDemoSteps_PF {
 
     }
 
-
+*/
 }
