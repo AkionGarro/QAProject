@@ -1,5 +1,6 @@
 package PageFactory;
 
+import PageFactory.ClubsPF.CostaRicaClubsPF;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -46,6 +47,8 @@ public class PriceSmartCountryPF {
     @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[5]/div/ul/li/a")
     WebElement colombiaPicker;
 
+    CostaRicaClubsPF costaRicaClubsPF;
+
     WebDriver driver;
 
     public PriceSmartCountryPF(WebDriver driver) {
@@ -73,7 +76,7 @@ public class PriceSmartCountryPF {
         this.nicaraguaPicker.click();
     }
 
-    public void clickPanamaicker( ) {
+    public void clickPanamaPicker( ) {
         this.panamaicker.click();
     }
 
@@ -85,7 +88,7 @@ public class PriceSmartCountryPF {
         this.barbadosPicker.click();
     }
 
-    public void clickDomincanRepublicPicker( ) {
+    public void clickDominicanRepublicPicker( ) {
         this.domincanRepublicPicker.click();
     }
 
@@ -106,7 +109,53 @@ public class PriceSmartCountryPF {
     }
 
 
-    public void selectCountry(String country){
-
+    public void selectCountry(String country,String club){
+        switch (country) {
+            case "Costa Rica":
+                clickCostaRicaPicker();
+                this.costaRicaClubsPF = new CostaRicaClubsPF(driver);
+                costaRicaClubsPF.pickClub(club);
+                
+                break;
+            case "Salvador":
+                clickSalvadorPicker();
+                break;
+            case "Guatemala":
+                clickGuatemalaPicker();
+                break;
+            case "Honduras":
+                clickHondurasPicker();
+                break;
+            case "Nicaragua":
+                clickNicaraguaPicker();
+                break;
+            case "Panamá":
+                clickPanamaPicker();
+                break;
+            case "Aruba":
+                clickArubaPicker();
+                break;
+            case "Barbados":
+                clickBarbadosPicker();
+                break;
+            case "Republica Dominicana":
+                clickDominicanRepublicPicker();
+                break;
+            case "Jamaica":
+                clickJamaicaPicker();
+                break;
+            case "Trinidad y Tobago":
+                clickTrinidadAndTobagoPicker();
+                break;
+            case "Virgin Island US":
+                clickVirginIslandsUsPicker();
+                break;
+            case "Colombia":
+                clickColombiaPicker();
+                break;
+            default:
+                System.out.println("Unknown country: " + country);
+                break;
+        }
     }
 }

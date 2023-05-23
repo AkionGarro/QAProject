@@ -26,6 +26,7 @@ public class PriceSmartHomePF {
 
     PriceSmartCountryPF countries;
 
+
     public PriceSmartHomePF(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -66,11 +67,12 @@ public class PriceSmartHomePF {
         }
     }
 
-    public void countryPicker(String country){
+    public void countryClubPicker(String country,String club){
         this.countries = new PriceSmartCountryPF(driver);
-
-
+        countries.selectCountry(country,club);
     }
+
+
 
 
 }
