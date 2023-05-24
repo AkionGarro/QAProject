@@ -6,7 +6,7 @@ Feature: Test shopping cart works correctly
     Then user is redirect to country in a specific club
     And user's shopping cart is empty
     Examples:
-      | country | club         | language |
-      | Aruba   | St. Michaels | Ingles   |
-      | Aruba   | St. Michaels | Español  |
+      | country  | club         | language |
+      | Barbados | St. Michaels | Ingles   |
+      | Barbados | St. Michaels | Español  |
 
