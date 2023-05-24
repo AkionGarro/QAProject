@@ -1,9 +1,6 @@
 package PageFactory;
 
-import PageFactory.ClubsPF.CostaRicaClubsPF;
-import PageFactory.ClubsPF.GuatemalaClubsPF;
-import PageFactory.ClubsPF.HondurasClubsPF;
-import PageFactory.ClubsPF.SalvadorClubsPF;
+import PageFactory.ClubsPF.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,7 +54,18 @@ public class PriceSmartCountryPF {
 
     HondurasClubsPF hondurasClubsPF;
 
+    NicaraguaClubsPF nicaraguaClubsPF;
+    PanamaClubsPF panamaClubsPF;
+
     WebDriver driver;
+    private ArubaClubsPF arubaClubsPF;
+    private BarbadosClubsPF barbadosClubsPF;
+    private RepublicaDominicanaClubsPF dominicanRepublicClubsPF;
+    private JamaicaClubsPF jamaicaClubsPF;
+    private TrinidadAndTobagoClubsPF trinidadAndTobagoClubsPF;
+    private VirginIslandUSClubsPF virginIslandsUsClubsPF;
+    private ColombiaClubsPF colombiaClubsPF;
+
 
     public PriceSmartCountryPF(WebDriver driver) {
         this.driver = driver;
@@ -142,30 +150,48 @@ public class PriceSmartCountryPF {
                 break;
             case "Nicaragua":
                 clickNicaraguaPicker();
+                this.nicaraguaClubsPF = new NicaraguaClubsPF(driver);
+                this.nicaraguaClubsPF.pickClub(club);
                 break;
             case "Panamá":
                 clickPanamaPicker();
+                this.panamaClubsPF = new PanamaClubsPF(driver);
+                this.panamaClubsPF.pickClub(club);
                 break;
             case "Aruba":
                 clickArubaPicker();
+                this.arubaClubsPF = new ArubaClubsPF(driver);
+                this.arubaClubsPF.pickClub(club);
                 break;
             case "Barbados":
                 clickBarbadosPicker();
+                this.barbadosClubsPF = new BarbadosClubsPF(driver);
+                this.barbadosClubsPF.pickClub(club);
                 break;
             case "Republica Dominicana":
                 clickDominicanRepublicPicker();
+                this.dominicanRepublicClubsPF = new RepublicaDominicanaClubsPF(driver);
+                this.dominicanRepublicClubsPF.pickClub(club);
                 break;
             case "Jamaica":
                 clickJamaicaPicker();
+                this.jamaicaClubsPF = new JamaicaClubsPF(driver);
+                this.jamaicaClubsPF.pickClub(club);
                 break;
             case "Trinidad y Tobago":
                 clickTrinidadAndTobagoPicker();
+                this.trinidadAndTobagoClubsPF = new TrinidadAndTobagoClubsPF(driver);
+                this.trinidadAndTobagoClubsPF.pickClub(club);
                 break;
             case "Virgin Island US":
                 clickVirginIslandsUsPicker();
+                this.virginIslandsUsClubsPF = new VirginIslandUSClubsPF(driver);
+                this.virginIslandsUsClubsPF.pickClub(club);
                 break;
             case "Colombia":
                 clickColombiaPicker();
+                this.colombiaClubsPF = new ColombiaClubsPF(driver);
+                this.colombiaClubsPF.pickClub(club);
                 break;
             default:
                 System.out.println("Unknown country: " + country);
