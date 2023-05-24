@@ -1,6 +1,9 @@
 package PageFactory;
 
 import PageFactory.ClubsPF.CostaRicaClubsPF;
+import PageFactory.ClubsPF.GuatemalaClubsPF;
+import PageFactory.ClubsPF.HondurasClubsPF;
+import PageFactory.ClubsPF.SalvadorClubsPF;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,6 +51,11 @@ public class PriceSmartCountryPF {
     WebElement colombiaPicker;
 
     CostaRicaClubsPF costaRicaClubsPF;
+    SalvadorClubsPF salvadorClubsPF;
+
+    GuatemalaClubsPF guatemalaClubsPF;
+
+    HondurasClubsPF hondurasClubsPF;
 
     WebDriver driver;
 
@@ -118,12 +126,19 @@ public class PriceSmartCountryPF {
                 break;
             case "Salvador":
                 clickSalvadorPicker();
+                this.salvadorClubsPF = new SalvadorClubsPF(driver);
+                this.salvadorClubsPF.pickClub(club);
+
                 break;
             case "Guatemala":
                 clickGuatemalaPicker();
+                this.guatemalaClubsPF = new GuatemalaClubsPF(driver);
+                this.guatemalaClubsPF.pickClub(club);
                 break;
             case "Honduras":
                 clickHondurasPicker();
+                this.hondurasClubsPF = new HondurasClubsPF(driver);
+                this.hondurasClubsPF.pickClub(club);
                 break;
             case "Nicaragua":
                 clickNicaraguaPicker();

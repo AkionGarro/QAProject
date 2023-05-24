@@ -6,8 +6,10 @@ Feature: Test shopping cart works correctly
     Then user is redirect to country in a specific club
     And user's shopping cart is empty
     Examples:
-      | country  | club        | language |
-      | Salvador | Los Héroes  | Ingles   |
-      | Salvador | Santa Elena | Ingles   |
-      | Salvador | Los Héroes  | Español  |
-      | Salvador | Santa Elena | Español  |
+      | country  | club           | language |
+      | Honduras | Florencia      | Ingles   |
+      | Honduras | San Pedro Sula | Ingles   |
+      | Honduras | El Sauce       | Ingles   |
+      | Honduras | Florencia      | Español  |
+      | Honduras | San Pedro Sula | Español  |
+
