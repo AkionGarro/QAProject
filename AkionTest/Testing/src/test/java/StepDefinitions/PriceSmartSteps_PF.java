@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 public class PriceSmartSteps_PF {
     WebDriver driver = null;
     PriceSmartHomePF home = null;
-    PriceSmartCountryPF country = null;
 
     @Given("browser is running")
     public void browser_is_running() {
@@ -27,7 +26,6 @@ public class PriceSmartSteps_PF {
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
     }
 
 
@@ -36,19 +34,26 @@ public class PriceSmartSteps_PF {
         System.out.println("Step: user go to priceSmart home page");
         this.driver.navigate().to("https://www.pricesmart.com/site/cr/en");
 
-
     }
+
     @When("^user put (.*) and (.*) and (.*)$")
-    public void user_put_username_and_password_and_language(String username, String password, String Language)  {
-        System.out.println("Step: user put username and password and language");
+    public void user_put_country_and_club_and_language(String country, String club, String language)  {
+        System.out.println("Step: user put country and club and language");
+        this.home = new PriceSmartHomePF(driver);
+        this.home.languagePicker(language);
+        this.home.countryClubPicker(country,club);
 
     }
     @Then("user is redirect to country in a specific club")
     public void user_is_redirect_to_country_in_a_specific_club() {
-        System.out.println("Step: ");
+        this.home.logoIsDesplayed();
+        System.out.println("Step: user is redirect to country in a specific club ");
     }
     @Then("user's shopping cart is empty")
     public void user_s_shopping_cart_is_empty() {
-        System.out.println("Step: ");
+        boolean flag = this.home.shoppingCartIsEmpty();
+        System.out.println("Step: user's shopping cart is empty "+ flag);
+        driver.close();
+        driver.quit();
     }
 }

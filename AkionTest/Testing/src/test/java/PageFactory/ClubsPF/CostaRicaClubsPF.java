@@ -31,13 +31,19 @@ public class CostaRicaClubsPF {
     @FindBy(xpath = "/html/body/form/div/div/div/div/div/div/div[2]/div/div[8]/div[1]/div[3]/div[1]/button")
     WebElement liberiaPicker;
 
+    @FindBy(xpath = "/html/body/section/section/nav/section/div/div/div[4]/ul[1]/li/div/button")
+    WebElement clubPicker;
+
+
     WebDriver driver;
 
     public CostaRicaClubsPF(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
-
+    public void clickClubPicker() {
+        this.clubPicker.click();
+    }
     public void clickZapotePicker( ) {
         this.zapotePicker.click();
     }
@@ -73,6 +79,7 @@ public class CostaRicaClubsPF {
     public void pickClub(String club){
 
         club = club.toLowerCase();
+        clickClubPicker();
         switch (club){
             case("escazú"):
                 clickEscazuPicker();

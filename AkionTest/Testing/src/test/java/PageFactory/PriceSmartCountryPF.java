@@ -115,7 +115,6 @@ public class PriceSmartCountryPF {
                 clickCostaRicaPicker();
                 this.costaRicaClubsPF = new CostaRicaClubsPF(driver);
                 costaRicaClubsPF.pickClub(club);
-                
                 break;
             case "Salvador":
                 clickSalvadorPicker();

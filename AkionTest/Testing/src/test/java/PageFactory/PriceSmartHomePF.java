@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PriceSmartHomePF {
 
-    @FindBy(xpath = "/html/body/section/section/nav/section/div/div/div[4]/ul[1]/li/div/button")
-    WebElement clubPicker;
 
     @FindBy(xpath = "/html/body/section/section/section[2]/footer/div/div[3]/div/div/div[2]/button")
     WebElement languagePicker;
@@ -22,6 +20,12 @@ public class PriceSmartHomePF {
     @FindBy(xpath = "/html/body/section/section/section[2]/footer/div/div[3]/div/div/div[2]/ul/li[2]/a")
     WebElement englishPicker;
 
+    @FindBy(xpath = "/html/body/section/section/nav/section/div/div/div[5]/ul/li/div/div/span")
+    WebElement shoppingCart;
+
+    @FindBy(xpath = "/html/body/section/section/nav/section/div/div/div[1]/a/div/img")
+    WebElement logoPriceSmart;
+
     WebDriver driver;
 
     PriceSmartCountryPF countries;
@@ -32,9 +36,7 @@ public class PriceSmartHomePF {
         PageFactory.initElements(driver,this);
     }
 
-    public void clickClubPicker() {
-      this.clubPicker.click();
-    }
+
 
     public void clickLanguagePicker() {
         this.languagePicker.click();
@@ -51,23 +53,32 @@ public class PriceSmartHomePF {
     public void clickSpanishPicker() {
         this.englishPicker.click();
     }
+    public Boolean shoppingCartIsEmpty() {
+        int items =  Integer.parseInt(this.shoppingCart.getText());
+        return items == 0;
+    }
+
+    public void logoIsDesplayed(){
+        this.logoPriceSmart.isDisplayed();
+    }
 
     public void languagePicker(String lang){
         lang = lang.toLowerCase();
-
+        clickLanguagePicker();
         switch (lang){
             case ("ingles"):
-                clickLanguagePicker();
                 clickEnglishPicker();
                 break;
             case("español"):
-                clickLanguagePicker();
                 clickSpanishPicker();
                 break;
+            default:
+                System.out.println("Error no existe el lenguaje");
         }
     }
 
     public void countryClubPicker(String country,String club){
+        clickCountryPicker();
         this.countries = new PriceSmartCountryPF(driver);
         countries.selectCountry(country,club);
     }

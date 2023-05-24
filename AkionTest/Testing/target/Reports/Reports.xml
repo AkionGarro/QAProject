@@ -1,20 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.209" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="feature to test google search functionality" name="Validate google search is working" time="0.028">
+<testsuite name="Cucumber" time="223.876" tests="16" skipped="0" failures="1" errors="0">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="14.208">
 <system-out><![CDATA[
-Given browser is open.......................................................passed
-And user is on google search page...........................................passed
-When user enters a text in search box.......................................passed
-And hits enter..............................................................passed
-Then user is navigated to search results....................................passed
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Escazú and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.003">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="12.086">
 <system-out><![CDATA[
-Given user is on login page.................................................passed
-When user enters username and password......................................passed
-And clicks on login button..................................................passed
-Then user is navigated to the home page.....................................passed
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Zapote and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="16.198">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Heredia and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="12.614">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Llorente and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="11.7">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Alajuela and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="11.559">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Tres Ríos and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.29">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Santa Ana and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="15.216">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Liberia and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="40.762">
+<failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: -0.013
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50edf8f624ca0413dc7df5421bec451c, get {url=https://www.pricesmart.com/site/cr/en}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\GARROA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:16253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16253/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50edf8f624ca0413dc7df5421bec451c">
+<![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.013
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50edf8f624ca0413dc7df5421bec451c, get {url=https://www.pricesmart.com/site/cr/en}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\GARROA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:16253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16253/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50edf8f624ca0413dc7df5421bec451c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:982)
+	at StepDefinitions.PriceSmartSteps_PF.user_go_to_price_smart_home_page(PriceSmartSteps_PF.java:35)
+	at ✽.user go to priceSmart home page(file:///D:/TEC-GIT/Git/QA/Project/QAProject/AkionTest/Testing/src/test/resources/Features/ShoppingCart.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................failed
+When user put Costa Rica and Escazú and Español.............................skipped
+Then user is redirect to country in a specific club.........................skipped
+And user's shopping cart is empty...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="12.237">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Zapote and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="12.27">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Heredia and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="11.817">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Llorente and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="11.653">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Alajuela and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="11.637">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Tres Ríos and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="9.329">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Santa Ana and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="11.101">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Liberia and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
