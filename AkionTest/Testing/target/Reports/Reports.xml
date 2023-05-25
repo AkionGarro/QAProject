@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="999.361" tests="99" skipped="0" failures="0" errors="0">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="16.633">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Aruba and Oranjestad and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.337">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Aruba and Oranjestad and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.407">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Barbados and St. Michaels and Ingles..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.187">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Barbados and St. Michaels and Español.........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="11.545">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bucaramanga and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.129">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Barranquilla and Ingles..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="11.112">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Cali Cañasgordas and Ingles......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.036">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Cali Menga and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="17.587">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Pereira and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.633">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bogotá Salitre and Ingles........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.132">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Medellín and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.138">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Chía and Ingles..................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.633">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bogotá Usaquén and Ingles........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="23.79">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bucaramanga and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="9.859">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Barranquilla and Español.........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="9.653">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Cali Cañasgordas and Español.....................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="12.158">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Cali Menga and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="10.194">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Pereira and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="10.24">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bogotá Salitre and Español.......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="9.541">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Medellín and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.17" time="10.59">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Chía and Español.................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.18" time="9.624">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Colombia and Bogotá Usaquén and Español.......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.256">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Escazú and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.159">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Zapote and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.416">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Heredia and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.346">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Llorente and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.391">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Alajuela and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.234">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Tres Ríos and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="8.765">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Santa Ana and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="12.313">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Liberia and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="7.682">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Escazú and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="9.107">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Zapote and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="9.325">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Heredia and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="9.284">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Llorente and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="9.595">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Alajuela and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="13.816">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Tres Ríos and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="7.427">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Santa Ana and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="9.662">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Costa Rica and Liberia and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.038">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Aranda and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.945">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Miraflores and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.125">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Pradera and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.478">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Fraijanes and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.099">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and San Cristóbal and Ingles........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.692">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Aranda and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.912">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Miraflores and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.547">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Pradera and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.836">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and Fraijanes and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.56">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Guatemala and San Cristóbal and Español.......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.321">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and Florencia and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.562">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and San Pedro Sula and Ingles........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.951">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and El Sauce and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.032">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and Florencia and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="9.812">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and San Pedro Sula and Español.......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="12.142">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Jamaica and Portmore and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.793">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Jamaica and Kingston and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.356">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Jamaica and Portmore and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.333">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Jamaica and Kingston and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.208">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Nicaragua and Managua and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.24">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Nicaragua and Masaya and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.916">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Nicaragua and Managua and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="12.632">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Nicaragua and Masaya and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.575">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Vía Brasil and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.077">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and El Dorado and Ingles...............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.272">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and David and Ingles...................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.176">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Brisas and Ingles..................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="13.532">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Costa Verde and Ingles.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.903">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Santiago de Veraguas and Ingles....................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.681">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Metro Park and Ingles..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="8.236">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Vía Brasil and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.319">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and El Dorado and Español..............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="9.305">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and David and Español..................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="10.051">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Brisas and Español.................................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="10.282">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Costa Verde and Español............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="12.537">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Santiago de Veraguas and Español...................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="9.319">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Panamá and Metro Park and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.643">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Los Prados and Ingles................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.595">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Santiago and Ingles..................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.928">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Arroyo Hondo and Ingles..............passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.855">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and San Isidro and Ingles................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="9.802">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Bolívar and Ingles...................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="8.426">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Los Prados and Español...............passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="10.124">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Santiago and Español.................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.212">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Arroyo Hondo and Español.............passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.713">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and San Isidro and Español...............passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.924">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Republica Dominicana and Bolívar and Español..................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.968">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Salvador and Los Héroes and Ingles............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.517">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Salvador and Santa Elena and Ingles...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.389">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Salvador and Los Héroes and Español...........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="7.884">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Salvador and Santa Elena and Español..........................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.927">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Chaguanas and Ingles....................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.775">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Port of Spain and Ingles................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.566">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Mausica and Ingles......................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.716">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and San Fernando and Ingles.................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="8.702">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Chaguanas and Español...................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.6">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Port of Spain and Español...............passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.224">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and Mausica and Español.....................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.483">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Trinidad y Tobago and San Fernando and Español................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.426">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Virgin Island US and St. Thomas and Ingles....................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="14.922">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Virgin Island US and St. Thomas and Español...................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

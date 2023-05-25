@@ -1,9 +1,14 @@
 package PageFactory.ClubsPF;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class ColombiaClubsPF {
 
@@ -82,6 +87,14 @@ public class ColombiaClubsPF {
         this.bogotaUsaquenPicker.click();
     }
 
+    public void skipPreferedClub(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/form/div/div/div/div/div/div/div[1]/button")));
+        WebElement modalAcceptButton = driver.findElement(
+                By.xpath("/html/body/form/div/div/div/div/div/div/div[1]/button"));
+        modalAcceptButton.click();
+    }
+
     public void pickClub(String club){
 
         club = club.toLowerCase();
@@ -91,7 +104,7 @@ public class ColombiaClubsPF {
                 clickBucaramangaPicker();
                 break;
             case("barranquilla"):
-                clickBarranquillaPicker();
+                skipPreferedClub();
                 break;
             case("cali cañasgordas"):
                 clickCaliCañasgordasPicker();

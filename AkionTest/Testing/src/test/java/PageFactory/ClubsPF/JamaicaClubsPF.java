@@ -1,9 +1,14 @@
 package PageFactory.ClubsPF;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class JamaicaClubsPF {
 
@@ -36,7 +41,13 @@ public class JamaicaClubsPF {
         this.kingstonPicker.click();
     }
 
-
+    public void skipPreferedClub(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/form/div/div/div/div/div/div/div[1]/button")));
+        WebElement modalAcceptButton = driver.findElement(
+                By.xpath("/html/body/form/div/div/div/div/div/div/div[1]/button"));
+        modalAcceptButton.click();
+    }
 
     public void pickClub(String club){
 
@@ -46,8 +57,9 @@ public class JamaicaClubsPF {
             case("portmore"):
                 clickPortmorePicker();
                 break;
+
             case("kingston"):
-                clickKingstonPicker();
+                skipPreferedClub();
                 break;
             default:
                 System.out.println("Hubo un error, no se encuentra el club");
