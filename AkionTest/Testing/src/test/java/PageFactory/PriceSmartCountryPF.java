@@ -8,23 +8,26 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PriceSmartCountryPF {
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[1]/a")
-    WebElement costaRicaPicker;
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[2]/a")
+
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[1]/a")
     WebElement salvadorPicker;
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[3]/a")
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[2]/a")
     WebElement guatemalaPicker;
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[4]/a")
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[3]/a")
     WebElement hondurasPicker;
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[5]/a")
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[4]/a")
     WebElement nicaraguaPicker;
 
-    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[6]/a")
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[5]/a")
     WebElement panamaicker;
+    @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[1]/div/ul/li[6]/a")
+    WebElement costaRicaPicker;
+
+
 
     @FindBy(xpath = "/html/body/section/section/section[1]/div/div[5]/div/div/div[3]/div/ul/li[1]/a")
     WebElement arubaPicker;

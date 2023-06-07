@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="999.361" tests="99" skipped="0" failures="0" errors="0">
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="16.633">
+<testsuite name="Cucumber" time="1,063.791" tests="100" skipped="0" failures="0" errors="0">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.444">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -9,7 +9,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.337">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.35">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -18,7 +18,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.407">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.862">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -27,7 +27,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.187">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.698">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -36,7 +36,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="11.545">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="11.357">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -45,7 +45,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.129">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.92">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -54,7 +54,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="11.112">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="11.021">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -63,7 +63,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.036">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.784">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -72,7 +72,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="17.587">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.982">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -81,7 +81,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.633">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="11.055">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -90,7 +90,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.132">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="11.284">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -99,7 +99,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.138">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.5">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -108,7 +108,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.633">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="10.621">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -117,7 +117,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="23.79">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.856">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -126,7 +126,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="9.859">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="9.53">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -135,7 +135,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="9.653">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="11.164">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -144,7 +144,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="12.158">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="11.61">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -153,7 +153,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="10.194">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="10.87">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -162,7 +162,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="10.24">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="10.989">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -171,7 +171,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="9.541">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="12.188">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -180,7 +180,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.17" time="10.59">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.17" time="11.181">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -189,7 +189,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.18" time="9.624">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.18" time="10.999">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -198,7 +198,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.256">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.089">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -207,7 +207,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.159">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.945">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -216,7 +216,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.416">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.48">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -225,7 +225,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.346">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.693">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -234,7 +234,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.391">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.221">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -243,7 +243,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.234">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.64">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -252,7 +252,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="8.765">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="8.452">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -261,7 +261,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="12.313">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.404">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -270,7 +270,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="7.682">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.265">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -279,7 +279,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="9.107">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.357">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -288,7 +288,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="9.325">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="10.607">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -297,7 +297,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="9.284">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="10.343">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -306,7 +306,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="9.595">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="10.479">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -315,7 +315,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="13.816">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="10.366">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -324,7 +324,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="7.427">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.15" time="8.728">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -333,7 +333,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="9.662">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.16" time="10.291">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -342,7 +342,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.038">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="12.622">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -351,7 +351,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.945">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.003">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -360,7 +360,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.125">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.892">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -369,7 +369,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.478">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.549">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -378,7 +378,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.099">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.683">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -387,7 +387,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.692">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.732">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -396,7 +396,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.912">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.702">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -405,7 +405,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.547">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.959">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -414,7 +414,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.836">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="10.907">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -423,7 +423,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.56">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.838">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -432,7 +432,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.321">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.991">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -441,7 +441,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.562">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.699">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -450,7 +450,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.951">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.624">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -459,7 +459,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.032">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.845">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -468,7 +468,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="9.812">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.936">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -477,7 +477,16 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="12.142">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.902">
+<system-out><![CDATA[
+Given browser is running....................................................passed
+And user go to priceSmart home page.........................................passed
+When user put Honduras and El Sauce and Español.............................passed
+Then user is redirect to country in a specific club.........................passed
+And user's shopping cart is empty...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="24.213">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -486,7 +495,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.793">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.444">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -495,7 +504,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.356">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.658">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -504,7 +513,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.333">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.405">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -513,7 +522,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.208">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.355">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -522,7 +531,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.24">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="11.144">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -531,7 +540,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.916">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.881">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -540,7 +549,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="12.632">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.483">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -549,7 +558,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.575">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.119">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -558,7 +567,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.077">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="11.004">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -567,7 +576,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.272">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.745">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -576,7 +585,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.176">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.746">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -585,7 +594,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="13.532">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.73">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -594,7 +603,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.903">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="11.118">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -603,7 +612,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.681">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="10.757">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -612,7 +621,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="8.236">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.478">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -621,7 +630,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.319">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="11.332">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -630,7 +639,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="9.305">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.799">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -639,7 +648,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="10.051">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.11" time="10.748">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -648,7 +657,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="10.282">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.12" time="10.7">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -657,7 +666,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="12.537">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.13" time="10.742">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -666,7 +675,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="9.319">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.14" time="11.251">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -675,7 +684,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.643">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.45">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -684,7 +693,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.595">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.711">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -693,7 +702,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.928">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.611">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -702,7 +711,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.855">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.904">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -711,7 +720,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="9.802">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.578">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -720,7 +729,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="8.426">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="9.701">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -729,7 +738,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="10.124">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="10.863">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -738,7 +747,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.212">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.756">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -747,7 +756,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="9.713">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.9" time="10.791">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -756,7 +765,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="10.924">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.10" time="11.058">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -765,7 +774,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.968">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="10.464">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -774,7 +783,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="8.517">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.569">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -783,7 +792,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.389">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="10.821">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -792,7 +801,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="7.884">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.731">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -801,7 +810,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.927">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.778">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -810,7 +819,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.775">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="10.856">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -819,7 +828,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="9.566">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.3" time="11.41">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -828,7 +837,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="9.716">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.4" time="10.719">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -837,7 +846,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="8.702">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.5" time="10.236">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -846,7 +855,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.6">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.6" time="10.825">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -855,7 +864,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="9.224">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.7" time="10.806">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -864,7 +873,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="9.483">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.8" time="10.731">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -873,7 +882,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="8.426">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.1" time="9.439">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed
@@ -882,7 +891,7 @@ Then user is redirect to country in a specific club.........................pass
 And user's shopping cart is empty...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="14.922">
+<testcase classname="Test shopping cart works correctly" name="Checks shopping cart don't have items when change locations - Example #1.2" time="9.257">
 <system-out><![CDATA[
 Given browser is running....................................................passed
 And user go to priceSmart home page.........................................passed

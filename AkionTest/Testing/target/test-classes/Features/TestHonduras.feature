@@ -12,4 +12,6 @@ Feature: Test shopping cart works correctly
       | Honduras | El Sauce       | Ingles   |
       | Honduras | Florencia      | Español  |
       | Honduras | San Pedro Sula | Español  |
+      | Honduras | El Sauce       | Español  |
+
 

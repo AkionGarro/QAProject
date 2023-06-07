@@ -22,7 +22,6 @@ public class NicaraguaClubsPF {
     @FindBy(xpath = "/html/body/section/section/nav/section/div/div/div[4]/ul[1]/li/div/button")
     WebElement clubPicker;
 
-
     WebDriver driver;
 
     public NicaraguaClubsPF(WebDriver driver) {

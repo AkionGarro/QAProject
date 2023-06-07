@@ -1,9 +1,16 @@
 package PageFactory;
 
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.concurrent.TimeUnit;
 
 public class PriceSmartHomePF {
 
@@ -82,7 +89,6 @@ public class PriceSmartHomePF {
         this.countries = new PriceSmartCountryPF(driver);
         countries.selectCountry(country,club);
     }
-
 
 
 

@@ -27,15 +27,12 @@ public class PriceSmartSteps_PF {
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
-
-
     @And("user go to priceSmart home page")
     public void user_go_to_price_smart_home_page() {
         System.out.println("Step: user go to priceSmart home page");
         this.driver.navigate().to("https://www.pricesmart.com/site/cr/en");
 
     }
-
     @When("^user put (.*) and (.*) and (.*)$")
     public void user_put_country_and_club_and_language(String country, String club, String language)  {
         System.out.println("Step: user put country and club and language");
@@ -56,4 +53,10 @@ public class PriceSmartSteps_PF {
         driver.close();
         driver.quit();
     }
+
+
+
+
+
+
 }
